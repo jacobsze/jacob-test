@@ -203,28 +203,28 @@
 	position: absolute;
 	top: 5px;
 	right: 5px;
-	content:url("updated.png");	
+	content:url("https://github.com/jacobsze/jacob-test/blob/master/updated.png?raw=true");	
 }
 
 .icon_new {
 	position: absolute;
 	top: 5px;
 	right: 5px;
-	content:url("new.png");	
+	content:url("https://github.com/jacobsze/jacob-test/blob/master/new.png?raw=true");	
 }
 
 .icon_up {
 	position: absolute;
 	top: 5px;
 	right: 5px;
-	content:url("up.png");	
+	content:url("https://github.com/jacobsze/jacob-test/blob/master/up.png?raw=true");	
 }
 
 .icon_down {
 	position: absolute;
 	top: 5px;
 	right: 5px;
-	content:url("down.png");	
+	content:url("https://github.com/jacobsze/jacob-test/blob/master/down.png?raw=true");	
 }
 
 .whiteboxes {
