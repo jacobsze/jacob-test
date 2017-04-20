@@ -1,0 +1,329 @@
+* {
+	font-family: Arial;
+}
+
+.leftbar {
+	width: 125px;
+	height: 990px;
+	background-color: #ffffff;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 100000;
+}
+
+.categories {
+	height: 230px;
+	margin: 5px;
+	background-color:#ededed;
+	text-align:center;
+	display: flex;
+	font-weight: bold;
+ 	justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.categories4 {
+	height: 140px;
+	margin: 5px;
+	background-color:#ededed;
+	text-align:center;
+	display: flex;
+	font-weight: bold;
+ 	justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.infopanel {
+	width: 340px;
+	height: 990px;
+	background-color: #efefef;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	z-index: 10000;
+	display: none;
+}
+
+.timeline {
+	height: 45px;
+	width: 3000px;
+	position: absolute;
+	top: 0px;
+	left: 125px;
+	z-index: 9999;
+}
+
+.quarter {
+	height: 35px;
+	width: 100px;
+	margin: 5px;
+	text-align: center;
+	display: flex;
+	font-weight: bold;
+ 	justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    position: absolute;
+    color: white;
+}
+
+.q1 {
+	width: 100px;
+	left: 5px;
+	background-color: #919499;
+}
+
+.q2 {
+	width: 100px;
+	left: 115px;
+	background: #8cd138;
+	background: -webkit-linear-gradient(left, #8cd138 , #ced137); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, #8cd138, #ced137); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, #8cd138, #ced137); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to right, #8cd138 , #ced137); /* Standard syntax */
+}
+
+.q3 {
+	width: 100px;
+	left: 225px;
+	background: #ced137;
+	background: -webkit-linear-gradient(left, #ced137 , #d1ad37); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, #ced137, #d1ad37); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, #ced137, #d1ad37); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to right, #ced137 , #d1ad37); /* Standard syntax */
+}
+
+.q4 {
+	width: 100px;
+	left: 335px;
+	background: #d1ad37;
+	background: -webkit-linear-gradient(left, #d1ad37 , #d17237); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(right, #d1ad37, #d17237); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(right, #d1ad37, #d17237); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to right, #d1ad37 , #d17237); /* Standard syntax */
+}
+
+.swimlane1 {
+	height: 235px;
+	width: 3000px;
+	top: 45px;
+	left: 125px;
+	position: absolute;
+	border-bottom: dashed 2px;
+}
+
+.swimlane2 {
+	height: 235px;
+	width: 3000px;
+	top: 282px;
+	left: 125px;
+	position: absolute;
+	border-bottom: dashed 2px;
+}
+
+.swimlane3 {
+	height: 235px;
+	width: 3000px;
+	top: 519px;
+	left: 125px;
+	position: absolute;
+	border-bottom: dashed 2px;
+}
+
+.swimlane4 {
+	height: 140px;
+	width: 3000px;
+	top: 756px;
+	left: 125px;
+	position: absolute;
+	border-bottom: dashed 2px;
+}
+
+.box {
+	width: 300px;
+	height: 225px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 10px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	cursor: pointer;
+}
+
+.box4 {
+	width: 150px;
+	height: 125px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 10px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	cursor: pointer;
+}
+
+.box4_click {
+	width: 150px;
+	height: 125px;
+	position: absolute;
+	z-index: 9998;
+}
+
+.box_click {
+	width: 300px;
+	height: 225px;
+	position: absolute;
+	z-index: 9998;
+}
+
+.done {
+	background-color: #8ec685;	
+}
+
+.inprogress {
+	background-color: #f9d663;	
+}
+
+.prioritized {
+	background-color: #c6c6c6;	
+}
+
+.title {
+	font-weight: bold;
+	width: 260px;
+	left: 15px;
+	top: 10px;
+	position: relative;
+	font-size: 90%;
+}
+
+.title4 {
+	font-weight: bold;
+	width: 105px;
+	left: 10px;
+	top: 10px;
+	position: relative;
+	font-size: 90%;
+}
+
+.description {
+	font-style: italic;
+	width: 285px;
+	left: 15px;
+	top: 10px;
+	position: relative;
+	font-size: 80%
+}
+
+.description4 {
+	font-style: italic;
+	width: 140px;
+	left: 10px;
+	top: 10px;
+	position: relative;
+	font-size: 80%
+}
+
+.icon_updated {
+	position: absolute;
+	top: 3px;
+	right: 5px;
+	content:url("https://github.com/jacobsze/jacob-test/blob/master/updated.png?raw=true");	
+}
+
+.icon_new {
+	position: absolute;
+	top: 3px;
+	right: 5px;
+	content:url("https://github.com/jacobsze/jacob-test/blob/master/new.png?raw=true");	
+}
+
+.icon_up {
+	position: absolute;
+	top: 3px;
+	right: 5px;
+	content:url("https://github.com/jacobsze/jacob-test/blob/master/up.png?raw=true");	
+}
+
+.icon_down {
+	position: absolute;
+	top: 3px;
+	right: 5px;
+	content:url("https://github.com/jacobsze/jacob-test/blob/master/down.png?raw=true");	
+}
+
+.whiteboxes {
+	width: 280px;
+	left: 10px;
+	top: 15px;
+	position: relative;
+	display: flex;
+}
+
+.whitebox {
+	background-color: #ffffff;
+	margin: 5px;
+	height: 70px;
+	width: 65px;
+	padding: 2px;
+	text-align: center;
+	font-size: 75%;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.emptybox {
+	margin: 5px;
+	height: 70px;
+	width: 65px;
+	text-align: center;
+	font-size: 75%;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.info1 {
+	width: 300px;
+	margin-left: 20px;
+	margin-top: 70px;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.info2 {
+	border-radius: 3px;
+	display: inline-block;
+	padding: 4px 10px 4px 10px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 90%;
+}
+
+.info3 {
+	position: relative;
+	width: 300px;
+	margin-left: 20px;
+	margin-top: 6px;
+	font-size: 85%;
+}
+
+.info_title {
+	position: relative;
+	width: 300px;
+	margin-left: 20px;
+	margin-top: 50px;
+	font-size: 120%;
+	font-weight: bold;
+}
